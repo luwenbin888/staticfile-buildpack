@@ -71,3 +71,4 @@ if [[ "$(grep directory: Staticfile)X" != "X" ]]; then
 fi
 
 cp $compile_buildpack_bin/boot.sh .
+echo "helloworld from the compile script"
